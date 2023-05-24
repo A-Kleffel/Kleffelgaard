@@ -1,0 +1,41 @@
+#intro{
+    display: grid;
+    grid-template-columns: minmax(0px, 1fr) minmax(0, 2fr);
+    grid-template-rows: minmax(0px, 1fr) minmax(0px, 1fr);
+    row-gap: 5px;
+    column-gap: 2px;
+    padding-top: 10px;
+    background-color: rgb(195, 236, 238);
+    
+}
+#welcome-img{width: 100%; }
+#welcome-figure{
+    margin: 0 0 0 0;
+    grid-area: 1 / 1 / 3 / 2;
+    z-index: 2;
+    align-self:flex-end; 
+}
+#welcome{
+    padding: 0 20px 0 30px;
+    grid-area: 1 / 2 / 2 / 3;
+    justify-self: stretch;
+    align-self:flex-end;
+}
+#welcome h1{margin-bottom: 5%;}
+#welcome-filler{
+    height: 16vw;
+    background-color: rgb(19, 19, 19);
+    grid-area: 2 / 1 / 3 / 3;
+    z-index: 1;
+    align-self:flex-end;
+}
+#website-why{
+    color: whitesmoke;
+    grid-area: 2 / 2 / 3 / 3;
+    padding: 7% 20px 10px 30px;
+    z-index: 2;
+}
+#website-why p{font-size: 1.5vw;}
+#website-why p:nth-child(1){padding: 10% 0 0 30%;}
+#website-why p:nth-child(2){padding: 3% 0 0 15%;}
+#website-why p:nth-child(3){padding: 3% 0 0 0;}

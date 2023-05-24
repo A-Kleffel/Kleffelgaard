@@ -1,0 +1,10 @@
+#website{
+    margin-top: 0px;
+    padding-top: 100px;
+    color: white;
+    background-color: grey;
+}
+
+#website article:nth-child(1){
+    padding-top: 20px;
+}

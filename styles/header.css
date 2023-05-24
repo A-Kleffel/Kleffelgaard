@@ -1,0 +1,59 @@
+
+header{
+    display: flex;
+    flex-direction:row;
+    flex-flow: wrap;
+    background-color: rgb(195, 236, 238);  
+    padding: 0 20px 0 20px;
+    color: black;
+}
+
+/* top logo */
+.header-left{
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    flex: 40%;
+}
+/* top name */
+#header-name{
+    margin: 0 0 0 20px;
+    font-size: 3vw;
+}
+#header-name-box{margin-left: 115px;}
+
+/* menu and flag */
+.header-right{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between; 
+    align-items:center;
+    flex: 60%;
+    text-transform: uppercase;
+}
+header a{
+    color: black; 
+    text-decoration: none;
+    font-weight: bold;
+}
+#link-list{ 
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+#link-list li{
+    display: list-item;
+    /* text-decoration: none; */
+    vertical-align: middle;
+    margin-right: 20px;
+    font-size: 1.5vw;
+}
+.flag-button{ 
+    background-image:url("../assets/flag_no.png");
+    background-size: cover;
+    width:2vw; 
+    height:1.5vw;
+}
+
+

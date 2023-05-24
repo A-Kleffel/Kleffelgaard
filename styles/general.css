@@ -1,0 +1,20 @@
+/* er denne nødvendig..? */
+html, body{
+    height: 100%; 
+    width: 100%;
+    margin: 0;
+}
+
+h1{
+    /* font-size: calc(80px + (112 - 80) * ((100vw - 768px) / (1600 - 768))); */
+    margin: 0;
+    font-size: 7vw;
+}
+h2{
+    /* font-size: calc(22px + (42 - 22) * ((100vw - 768px) / (1600 - 768))); */
+    margin: 0;
+    font-size: 2vw;
+}
+p{font-size: 1.2vw;}
+
+img{max-width: 100%;}

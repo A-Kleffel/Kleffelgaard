@@ -8,12 +8,16 @@ header{
     color: black;
 }
 
-/* top logo */
 .header-left{
     display: flex;
     align-items:center;
     justify-content:flex-start;
     flex: 40%;
+}
+/* top logo */
+.logo{
+    width:5vw; 
+    height:5vw;
 }
 /* top name */
 #header-name{

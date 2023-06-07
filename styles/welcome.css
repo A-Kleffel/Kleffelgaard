@@ -1,7 +1,7 @@
 #intro{
     display: grid;
     grid-template-columns: minmax(0px, 1fr) minmax(0, 2fr);
-    grid-template-rows: minmax(0px, 1fr) minmax(0px, 1fr);
+    grid-template-rows: minmax(0px, 0.85fr) 22%;
     row-gap: 5px;
     column-gap: 2px;
     padding-top: 10px;
@@ -13,7 +13,7 @@
     margin: 0 0 0 0;
     grid-area: 1 / 1 / 3 / 2;
     z-index: 2;
-    align-self:flex-end; 
+    align-self:self-end 
 }
 #welcome{
     padding: 0 20px 0 30px;
@@ -22,12 +22,12 @@
     align-self:flex-end;
 }
 #welcome h1{margin-bottom: 5%;}
+#welcome h2{margin-bottom: 10%;}
 #welcome-filler{
-    height: 16vw;
     background-color: rgb(19, 19, 19);
     grid-area: 2 / 1 / 3 / 3;
     z-index: 1;
-    align-self:flex-end;
+    align-self:auto
 }
 #website-why{
     color: whitesmoke;
